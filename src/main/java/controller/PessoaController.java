@@ -36,7 +36,7 @@ public class PessoaController {
 		em.getTransaction().commit();
 	}
 	
-	public void mer(Pessoa p) {
+	public void merge(Pessoa p) {
 		em.getTransaction().begin();
 		em.merge(p);
 		em.getTransaction().commit();

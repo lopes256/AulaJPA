@@ -25,8 +25,8 @@ public class Pessoa implements Serializable {
 	public Pessoa(Integer id, String nome, String email) {
 		super();
 		this.id = id;
-		this.nome = nome;
-		this.email = email;
+		this.nome = nome.toUpperCase();
+		this.email = email.toLowerCase();
 	}
 
 	public Integer getId() {
