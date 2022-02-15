@@ -17,7 +17,7 @@ public class Programa {
 		p.close();
 
 		System.out.println(pFind);
-		System.out.println("Pronto!!!!");
+		System.out.println("Super Pronto!!!!");
 	}
 
 }
