@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.deltatgn</groupId>
 	<artifactId>aulajpamaven</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.4-SNAPSHOT</version>
 
 	<properties>
 		<maven.compiler.source>11</maven.compiler.source>

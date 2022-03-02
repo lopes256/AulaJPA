@@ -19,7 +19,6 @@ public class Pessoa implements Serializable {
 	private String email;
 
 	public Pessoa() {
-		super();
 	}
 
 	public Pessoa(Integer id, String nome, String email) {
